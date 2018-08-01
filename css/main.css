@@ -185,6 +185,7 @@ h2,
 h3,
 .h3 {
     font-size: 24px;
+    padding-left: 10px;
 }
 
 h4,
@@ -1214,6 +1215,10 @@ h6 {
     height: 200px;
 }
 
+.gallery-item {
+    padding-top: 55px;
+}
+
 .list-style {
     width: 14px;
     height: 14px;
@@ -2076,7 +2081,7 @@ nav a:hover {
     }
 }
 
-.banner-content {
+.topper {
     margin-top: 15vh;
 }
 
@@ -2311,6 +2316,8 @@ nav a:hover {
 }
 
 .single-service .icon {
+    justify-content: center;
+    margin-top: 5vh;
     width: 130px;
     height: 130px;
     display: -webkit-box;
@@ -2326,6 +2333,11 @@ nav a:hover {
     font-size: 36px;
     color: #f5204b;
     font-weight: 600;
+}
+
+.single-service .icon h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 102px !important;
 }
 
 .single-service .desc h4 {
@@ -2388,8 +2400,26 @@ nav a:hover {
 }
 
 .video-area {
-    background: url(../img/c-bg.jpg) no-repeat center center/cover;
+    background: url(../img/kfbf.jpeg) no-repeat center center/cover;
+    border-bottom: solid 2px #f5204b;
 }
+
+.video-area1 {
+    background: url(../img/headerBG1920.jpg) no-repeat center center/cover;
+}
+
+.video-area2 {
+    background: url(../img/porto.jpeg) no-repeat center center/cover;
+}
+
+.video-area3 {
+    background: url(../img/dono.jpeg) no-repeat center center/cover;
+}
+
+.video-area4 {
+    background: url(../img/gusto.jpeg) no-repeat center center/cover;
+}
+
 
 .video-area .overlay-bg {
     background: rgba(0, 0, 0, 0.75);
@@ -2408,6 +2438,13 @@ nav a:hover {
     .video-area .video-wrap {
         height: 300px;
     }
+    .service-area {
+        padding: inherit;
+    }
+    .gallery-item {
+        padding-top: 0px !important;
+    }
+
 }
 
 .video-area .video-wrap .overlay-bg {
@@ -2446,6 +2483,7 @@ nav a:hover {
 }
 
 .sample-text {
+    padding: 10px;
     text-align: justify;
 }
 
